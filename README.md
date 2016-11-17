@@ -15,7 +15,7 @@ An `eslintConfig` clasue in `package.json` or `.eslintrc.json` that extends the 
 ```json
 {
   "root": true,
-  "extends": "ds",
+  "extends": "javi",
   "env": {
     "browser": true
   },
