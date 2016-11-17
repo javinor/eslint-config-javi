@@ -5,7 +5,7 @@ Adaptation from [Dany](https://github.com/danyshaanan)
 ## Installation
 
 ```bash
-npm install --save-dev eslint-config-javi
+npm install --save-dev git+git@github.com:javinor/eslint-config-javi.git
 ```
 
 ## Usage and Config
