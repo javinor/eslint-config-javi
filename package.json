@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-javi",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "3.6.1",
+    "faucet": "0.0.1",
+    "npm-check": "5.2.3",
+    "tape": "4.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.6.1"
+  },
+  "scripts": {
+    "check": "npm-check -u",
+    "lint": "eslint .",
+    "units": "node test.js | faucet",
+    "test": "npm run lint && npm run units"
+  },
+  "description": "My custom ESLint config",
+  "author": "Jonathan Avinor <javinor@gmail.com>",
+  "repository": "git@github.com:javinor/eslint-config-javi.git",
+  "homepage": "https://github.com/javinor/eslint-config-javi",
+  "bugs": "https://github.com/javinor/eslint-config-javi/issues",
+  "keywords": [
+    "lint",
+    "style",
+    "config",
+    "eslint",
+    "eslintrc",
+    "eslintconfig",
+    "eslint-config",
+    "javascript",
+    "code",
+    "es6"
+  ],
+  "license": "MIT"
+}
