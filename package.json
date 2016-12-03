@@ -8,11 +8,11 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.17.0",
-    "eslint": "3.6.1",
-    "npm-check": "5.2.3"
+    "eslint": "^3.11.1",
+    "npm-check": "^5.4.0"
   },
   "peerDependencies": {
-    "eslint": ">=3.6.1"
+    "eslint": ">=3"
   },
   "scripts": {
     "check": "npm-check -u",
