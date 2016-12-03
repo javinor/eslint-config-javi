@@ -7,10 +7,9 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "ava": "^0.17.0",
     "eslint": "3.6.1",
-    "faucet": "0.0.1",
-    "npm-check": "5.2.3",
-    "tape": "4.6.0"
+    "npm-check": "5.2.3"
   },
   "peerDependencies": {
     "eslint": ">=3.6.1"
@@ -18,7 +17,7 @@
   "scripts": {
     "check": "npm-check -u",
     "lint": "eslint .",
-    "units": "node test.js | faucet",
+    "units": "ava test.js",
     "test": "npm run lint && npm run units"
   },
   "description": "My custom ESLint config",
